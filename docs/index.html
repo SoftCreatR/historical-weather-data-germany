@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Historical (30d) Weather Data for Germany</title>
+  <meta name="description" content="Historical (30d) Weather Data for Germany" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta name="author" content="Sascha Greuel, hello@1-2.dev" />
+  <meta name="theme-color" content="#007db9" />
+</head>
+<body>
+  <div class="content">
+    <div class="header">
+    <div class="chartjs-title">Historical Weather in <a href="https://www.deutschland.de/">Germany</a></div>
+    <div class="chartjs-caption">
+      Temperature in the past 30 days
+    </div>
+    <div class="chartjs-links">
+      <a class="btn btn-gh" href="https://github.com/softcreatr/historical-weather-data-germany">GitHub</a>
+    </div>
+    </div>
+
+    <canvas id="myChart"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+    integrity="sha512-s+xg36jbIujB2S2VKfpGmlC3T5V2TF3lY48DX7u2r9XzGzgPsa6wTpOQA7J9iffvdeBN0q9tKzRxVxw1JviZPg=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="main.js"></script>
+</body>
+</html>
