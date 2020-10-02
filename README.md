@@ -1,5 +1,5 @@
 ### Temperatures in the past 30 days in Germany
-#### GitHub actions experiment
+GitHub actions experiment
 
 ---
 
