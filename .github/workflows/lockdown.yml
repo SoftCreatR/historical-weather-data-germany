@@ -21,3 +21,4 @@ jobs:
           pr-comment: >
             Thank you for your contribution, but this repository does not accept pull requests.
           skip-closed-pr-comment: true
+          pr-labels: 'invalid'
